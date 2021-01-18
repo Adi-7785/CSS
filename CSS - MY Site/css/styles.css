@@ -1,0 +1,205 @@
+/*Always write the elements in alphabetical order. */
+body {
+  margin: 0;
+  text-align: center;
+  /* This is used to align everything in the body(parent), except the element that
+  has it's width set.*/
+  font-family: 'Merriweather', sans-serif;
+  /* This is used to style our code in website, MONOSPACE is used in writing code
+  for an even gap and legiblity.
+*/
+line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #184d47;
+  font-weight: normal;
+}
+a{
+
+  color: #96bb7c;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 20px;
+
+}
+a:hover{
+  color: #d6efc7;
+}
+/*This is a pseudo class I need to work on this */
+h1 {
+  margin: 50px auto 0;
+  /*  width: 10%;
+  If the element has it's width set and it is an block element, we need to use
+  auto.
+  margin: 0 auto; */
+  font-family: 'Sacramento', cursive;
+  font-size: 6.25rem;
+  /* Here em is used it is totally different not to italicise. 1em = 16px;
+  this is to create dynamic font size. Also we can use %. 100% = 16px*/
+  color: #184d47;
+}
+
+h3 {
+  font-family: 'Merriweather', sans-serif;
+  color: #19456b;
+}
+hr{
+  border-style: dotted none none;
+  border-color: darkgrey;
+  border-width: 6px;
+  width: 3%;
+  background-color: #d6efc7;
+  margin: 100px auto;
+}
+
+/* Whenever the value is zero, NO need of units*/
+.bottom-container {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fad586;
+
+
+}
+
+
+.last-para{
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 30%;
+}
+.middle-container {
+  background-color: #d6efc7;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.contact-me{
+  display: inline-block;
+}
+.TopContainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: #96bb7c;
+  line-height: 2;
+}
+
+
+
+.img-1 {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.img-2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+
+.span {
+  text-decoration: underline;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.cloud-1 {
+  position: absolute;
+  top: 50px;
+  right: 450px;
+}
+
+.cloud-2 {
+  position: absolute;
+  /* This was done to get Mountain to the center; as both of them were By default
+  Inline-Block.
+  This image is now being placed at random.*/
+  left: 450px;
+  bottom: 300px;
+}
+
+
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+/*
+.para-left{
+  clear:both;
+}
+This feature is kind of anti float.
+*/
+/*hr{
+  width: 10%;
+  height: 10px;
+  border: none;
+  border-top: dotted;
+  color: #EAF6F6;
+  background-color:#96bb7c;
+}
+This is code that i was trying.*/
+
+
+.redbutton {
+   background: #F63D3D;
+   background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+   background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+   background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+   background-image: -o-linear-gradient(top, #F63D3D, #811616);
+   background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   width: 185px;
+   font-size: 20px;
+   font-weight: 900;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 6px 0 #000000;
+   -moz-box-shadow: 1px 1px 6px 0 #000000;
+   box-shadow: 1px 1px 6px 0 #000000;
+   text-shadow: 1px 1px 6px #000000;
+   border: solid #762C2C 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.redbutton:hover {
+   border: solid #ED3333 1px;
+   background: #811616;
+   background-image: -webkit-linear-gradient(top, #811616, #F63D3D);
+   background-image: -moz-linear-gradient(top, #811616, #F63D3D);
+   background-image: -ms-linear-gradient(top, #811616, #F63D3D);
+   background-image: -o-linear-gradient(top, #811616, #F63D3D);
+   background-image: -webkit-gradient(to bottom, #811616, #F63D3D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.krish{
+  width: 25%;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+
+}
+.copy{
+  color: #96bb7c;
+  font-size: 0.75rem;
+}
